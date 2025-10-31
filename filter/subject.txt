@@ -41,7 +41,7 @@ $> echo 'ababcabababc' | ./filter ababc | cat -e
 $>
 
 NOTES:
-memmem includes:
+memmem includes:  
                 #define _GNU_SOURCE
 			    #include <string.h>
 
